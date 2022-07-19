@@ -1,0 +1,40 @@
+h1{
+    background-color: greenyellow;
+    color:white;
+    text-align: center;
+    padding:3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+a{
+    color:blue;
+}
+
+
+/* style de liens non visités : */
+a:link{
+    color:coral
+}
+
+/* style de liens visités : */
+a:visited{
+    font-size: smaller;
+}
+
+/* permet de spécifier du style lorsqu'on passe dessus : */
+a:hover{
+    color:aqua;
+    font-size: larger;
+}
+
+img{
+    border-radius: 20%;
+    border: 1px solid black;
+    -webkit-box-shadow: -7px -8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px -8px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -7px -8px 5px 0px rgba(0,0,0,0.75);
+}
+
